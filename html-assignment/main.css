@@ -1,0 +1,38 @@
+body {
+    font-style: oblique;
+    font-size: 18px;
+}
+header, footer {
+    background-color:blue;
+}
+.site-title {
+    color: coral;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black-;
+}
+.my-hobbies {
+    list-style:square;
+}
+.my-hobbies li:nth-child(odd) {
+    background-color: deeppink;
+}
+.my-hobbies li:nth-child(odd) {
+    background-color: brown;
+}   
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding:6px 10px;
+    background-color: blueviolet;
+    border: 2px solid crimson; 
+    color: #07d50A;
+    transition: background-color 0.4s ease;
+}
+nav a:hover,nav a:focus{
+    background-color: aquamarine;
+}
