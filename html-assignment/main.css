@@ -3,7 +3,7 @@ body {
     font-size: 18px;
 }
 header, footer {
-    background-color:blue;
+    background-color: darkslategrey;
 }
 .site-title {
     color: coral;
@@ -28,9 +28,9 @@ nav a {
     text-decoration: none;
     display: block;
     padding:6px 10px;
-    background-color: blueviolet;
-    border: 2px solid crimson; 
-    color: #07d50A;
+    background-color: teal;
+    border: 2px solid blueviolet; 
+    color: cornsilk;
     transition: background-color 0.4s ease;
 }
 nav a:hover,nav a:focus{
