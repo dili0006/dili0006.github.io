@@ -5,3 +5,16 @@ body {
     background-position:top;
 
 }
+
+ figure img {
+ width: 100;
+ height: auto;
+ display: block;
+
+}
+*/
+.container{
+ width: 200px;
+
+}
+
