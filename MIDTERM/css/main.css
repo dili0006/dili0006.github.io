@@ -27,7 +27,7 @@ h1 {
     left: 0%;
 }
 
-.navbar ul{
+.nav ul{
 
 list-style: none;
 text-decoration: none;
@@ -51,11 +51,11 @@ img {
 }
 
 form{
-    width: 966px;
+    width: 200px;
 
 }
 
 form textarea{
-    width: 966px;
-    height: 113px;
+    width: 200px;
+    height: 400px;
 }
