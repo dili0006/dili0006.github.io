@@ -19,8 +19,8 @@ h1 {
     font-size: 2rem;
 }
 
-h2 {
-text-align: center;
+.h2home {
+text-align: right;
 text-decoration: none;
 top:50%;
 bottom:50%;
