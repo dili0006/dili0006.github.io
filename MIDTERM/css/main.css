@@ -8,28 +8,24 @@ body {
 }
 /* Container for the image and text */
 .container {
-    position: relative;
+    position: absolute;
     text-align: center;
     color:whitesmoke;
     top: 200px;
     bottom: 180px;
-}
-
-p.solid{
-    border-style: solid;
+    padding: auto;
 }
 h1 {
+    position: absolute;
     text-align:center;
+    color: whitesmoke;
     font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    top:30%;
+    bottom:0%;
+    right: auto;
+    left: auto;
 }
-
-.home {
-text-align: right;
-text-decoration: none;
-top:50%;
-bottom:50%;
-}
-
 
 .navbar ul{
 
@@ -37,15 +33,9 @@ list-style: none;
 background-color: #aad4cf;
 margin-top: 0%;
 padding: auto;
+display: inline-block;
 }
 
-.navbar a{
-color:white;
-text-align: center;
-padding: 20px;
-display: block;
-
-}
  figure img {
  width: 100;
  height: auto;
@@ -55,5 +45,7 @@ display: block;
 img {
     width: 300px;
   float: left;
+  margin: 0%;
+  padding: 15px;
 }
 
