@@ -3,58 +3,43 @@ body {
     background-image: url(../images/lone-starfish-wide.jpg);
     background-repeat: no-repeat;
     background-position:top;
-
-}
-/* Container for the image and text */
-.container {
-    position: absolute;
-    text-align: center;
-    color:whitesmoke;
-    top: 200px;
-    bottom: 180px;
-    padding: auto;
-}
-h1 {
-    position: absolute;
-    text-align:center;
-    color: whitesmoke;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 25%;
-    bottom: 0%;
-    right: 0%;
-    left: 0%;
-}
-
-.nav ul{
-
-list-style: none;
-text-decoration: none;
-background-color: #aad4cf;
-margin-top: 0%;
-padding: auto;
-display: inline-block;
-}
-
- figure img {
- width: 100;
- height: auto;
- display: block;
-
+    width: 200px;
 }
 img {
-    width: 300px;
-  float: left;
-  margin: 0%;
-  padding: 15px;
+    width:400px;
+    float: left;
+    padding: 20px;
 }
-
-form{
-    width: 200px;
+ 
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    position: absolute;
+    top:30%;
+    bottom: 0%;
+    right:0%;
+    left: 0%;
 
 }
+ .container {
+    background-color: aliceblue;
+    font-size: 2rem;
+    width: 1225px;
+    height: 1125px;
+    position: absolute;
+    top: 40%;
+    bottom: 0%;
+    left:10%;
+    right:10%;
+    padding:10px
+ }
 
-form textarea{
-    width: 200px;
-    height: 400px;
+ form {
+    width: 700px;
+ }
+form textarea {
+    width: 800px;
+    height:500px
 }
