@@ -19,12 +19,14 @@ h1 {
     font-size: 2rem;
 }
 
-.h2home {
+.homec1 {
 text-align: right;
 text-decoration: none;
 top:50%;
 bottom:50%;
 }
+
+
 .navbar ul{
 
 list-style: none;
