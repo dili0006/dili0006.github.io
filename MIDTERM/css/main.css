@@ -5,14 +5,13 @@ body {
     background-position:top;
 
 }
-
-    /* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
     color: white;
-  
+    bottom: 8px;
+    left: 16px;
   }
 h1 {
     text-transform:uppercase;
