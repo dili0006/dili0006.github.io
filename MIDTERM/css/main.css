@@ -6,6 +6,16 @@ body {
 
 }
 
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+h1 {
+    text-transform:uppercase;
+    font-size: 2rem;
+}
  figure img {
  width: 100;
  height: auto;
