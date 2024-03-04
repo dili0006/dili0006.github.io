@@ -5,17 +5,20 @@ body {
     background-position:top;
 
 }
-/* Container holding the image and the text */
+/* Container for the image and text */
 .container {
     position: relative;
     text-align: center;
-    color:#111;
+    color:whitesmoke;
     top: 200px;
     bottom: 180px;
   }
 h1 {
-    text-transform:uppercase;
+    text-align:center;
     font-size: 2rem;
+}
+
+
 }
  figure img {
  width: 100;
@@ -25,7 +28,7 @@ h1 {
 }
   
   li {
-    float: left;
+    float:right;
   }
   
   li a {
@@ -34,9 +37,9 @@ h1 {
     background-color:#aad4cf;
   }
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type:square;
+    margin: 50px;
+    padding: 40px;
     overflow: hidden;
     background-color:#aad4cf; 
   }
