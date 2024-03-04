@@ -13,13 +13,17 @@ body {
     color:whitesmoke;
     top: 200px;
     bottom: 180px;
-  }
+}
+
+p.solid{
+    border-style: solid;
+}
 h1 {
     text-align:center;
     font-size: 2rem;
 }
 
-.homec1 {
+.home {
 text-align: right;
 text-decoration: none;
 top:50%;
@@ -48,11 +52,8 @@ display: block;
  display: block;
 
 }
-
-  
-*/
-.container{
- width: 200px;
-
+img {
+    width: 300px;
+  float: left;
 }
 
