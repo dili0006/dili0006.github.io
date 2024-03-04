@@ -10,8 +10,8 @@ body {
     position: relative;
     text-align: center;
     color: white;
-    top:30%;
-    bottom: 70%;
+    top: 300px;
+    bottom: 200px;
   }
 h1 {
     text-transform:uppercase;
