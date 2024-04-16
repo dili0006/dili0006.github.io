@@ -16,7 +16,7 @@ body {
 
 .wrapper {
     color:darkgoldenrod;
-    background-color:rgb(29, 27, 27);
+    background-color:rgba(29, 27, 27, 0.958);
     list-style-type: none; 
     text-align: center; 
     font-size: 30px;
