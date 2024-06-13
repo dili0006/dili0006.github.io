@@ -23,3 +23,31 @@ header , footer{
 :nth-child(2) #odd {
     background-color: burlywood;
 }
+
+a[href="notes.html"] {
+    color:darkgoldenrod
+}
+
+a:link, a:visited link {
+    text-decoration:none ;
+
+ }
+
+ a:hover, a:active {
+    text-decoration: underline
+       color(srgb red green blue)
+ }
+
+
+ 
+ a[href= "index.html"]  {
+        color:cornflowerblue 
+ }
+ a:link, a:visited link {
+    text-decoration:none ;
+ }
+
+ a:hover, a:active {
+    text-decoration: underline
+       color(srgb red green blue)
+ }
