@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:cadetblue;
+}
+
+.wrapper  {
+    color: white;
+    background-image: url(..images/lone-starfish-wide.jpg) ;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  
+  }
