@@ -5,11 +5,11 @@ body {
 
 .wrapper  {
     color: white;
-    background-image: url(..images/lone-starfish-wide.jpg) ;
+    background-image:url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
     position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-  
   }
