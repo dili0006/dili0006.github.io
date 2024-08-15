@@ -1,7 +1,19 @@
+.default{
+    box-sizing: border-box;
+    max-width: 1200px;
+    text-align: center;
+}
+
 body {
+    display:block;
+    justify-content:center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto ;
+    padding: 0 ;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-style: normal;
+    font-style:normal;
     
 }
 
@@ -18,14 +30,17 @@ body {
 
 .home {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
     background-color:#c78c06;
     text-decoration: none;
     color: black;
-    width: 1250px;
+    width: 1200px;
     height: 200px;
+    margin: auto ;
+
 }
+
 
 .abt-us{
     display: flex;
@@ -72,12 +87,14 @@ body {
     justify-content:left;
     align-items: center;
     background-color: #c78c06;
+    position: absolute;
     color: white;
-    width: 150px;
+    top:190%;
+    width: 170px;
     height: 80px;
     margin: none;
     border: none;
-    font-size: 15px;
+    font-size: 25px;
 
 }
 
@@ -88,9 +105,8 @@ body {
     color: white;
     position: absolute;
     top:160%;
-    bottom: 200%;
-    left: 16px;
-    font-size: 80px;
+    font-size: 70px;
+    margin: auto;
 }
 
 .white-par {
@@ -100,12 +116,26 @@ body {
     color: white;
     position: absolute;
     top:180%;
-    bottom: 200%;
-    left: 16px;
+    margin: auto;
 }
-.about-us {
+
+.about{
+    display: flex;
+    justify-content:right;
+    align-items: right;
+    top: 250%;
+    right: 40px;
+    font-size: 50px;
     background-color: rgb(236, 213, 146);
     color:black;
+}
+.about-us {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    background-color: rgb(236, 213, 146);
+    color:black;
+    padding: 1rem 2rem;
 }
 
 .our-srv{
@@ -205,17 +235,6 @@ body {
         font-size: 15px;
  }
 
- .lm-btn{
-        display: flex;
-        justify-content:left;
-        align-items: center;
-        background-color:#3e3c3c;
-        color: white;
-        width: 250px;
-        height: 100px;
-        border-bottom: #c78c06 1px 1px 1px 1px;
-        font-size: 15px;
- }
 
  .our-vision{
     display: flex;
@@ -240,3 +259,37 @@ body {
     left: 16px;
     font-size: 30px;
  }
+
+ .learn-btn {
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    background-color:#3e3c3c;
+    color: white;
+    width: 250px;
+    height: 100px;
+    border-bottom: #c78c06 1px 1px 1px 1px;
+    font-size: 15px;
+}
+
+.john{
+    background-color: rgb(236, 213, 146);
+    color:black;
+}
+
+.bob{
+    background-color: rgb(236, 213, 146);
+    color:black;
+}
+
+.map{
+    width: 100%;
+    height: 350px;
+    left: 100px;
+}
+
+.footer{
+    background-color: #222;
+    color:#c78c06;
+    font-size: 13px;
+}
