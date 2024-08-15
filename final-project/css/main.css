@@ -67,7 +67,10 @@ body {
     height: 100px;
 }
 
-.cnt-us {
+.cntus-btn {
+    display: flex;
+    justify-content:left;
+    align-items: center;
     background-color: #c78c06;
     color: white;
     width: 150px;
@@ -84,7 +87,156 @@ body {
     align-items: center;
     color: white;
     position: absolute;
-    top:100%;
-    bottom: 100%;
+    top:160%;
+    bottom: 200%;
+    left: 16px;
+    font-size: 80px;
+}
+
+.white-par {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top:180%;
+    bottom: 200%;
     left: 16px;
 }
+.about-us {
+    background-color: rgb(236, 213, 146);
+    color:black;
+}
+
+.our-srv{
+    color: black;
+    font-size: 50px;
+
+}
+.srv {
+    background-color: rgb(236, 213, 146);
+    color:black;
+
+}
+
+.dg-btn{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    background-color:#222;
+    color: white;
+    width: 150px;
+    height: 80px;
+    margin: none;
+    border: none;
+    font-size: 15px;
+}
+
+
+.mrk{
+    background-color: rgb(236, 213, 146);
+    color:black;
+}
+
+.mp-btn {
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        background-color:#222;
+        color: white;
+        width: 150px;
+        height: 80px;
+        margin: none;
+        border: none;
+        font-size: 15px;
+ }
+
+ .video{
+    background-color: rgb(236, 213, 146);
+    color:black;
+ }
+
+ .vp-btn{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        background-color:#222;
+        color: white;
+        width: 150px;
+        height: 80px;
+        margin: none;
+        border: none;
+        font-size: 15px;
+ }
+
+ .web{
+    background-color: rgb(236, 213, 146);
+    color:black;
+ }
+
+ .print{
+    background-color: rgb(236, 213, 146);
+    color:black;
+ }
+
+ .wd-btn{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        background-color:#222;
+        color: white;
+        width: 150px;
+        height: 80px;
+        margin: none;
+        border: none;
+        font-size: 15px;
+ }
+
+ .pp-btn{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        background-color:#222;
+        color: white;
+        width: 150px;
+        height: 80px;
+        margin: none;
+        border: none;
+        font-size: 15px;
+ }
+
+ .lm-btn{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        background-color:#3e3c3c;
+        color: white;
+        width: 250px;
+        height: 100px;
+        border-bottom: #c78c06 1px 1px 1px 1px;
+        font-size: 15px;
+ }
+
+ .our-vision{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top:620%;
+    bottom: 180%;
+    left: 16px;
+    font-size: 60px;
+ }
+
+ .vision-par{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top:670%;
+    bottom: 180%;
+    left: 16px;
+    font-size: 30px;
+ }
