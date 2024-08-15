@@ -288,8 +288,11 @@ body {
     background-color: #222;
 }
 
-.table{
-    border: 1px 1px 1px 1px;
+.table {
+    border-bottom: 1px ;
+    border-top: 1px;
+    border-width: 1px;
+    border-right: 1px;
 }
 
 .map{
