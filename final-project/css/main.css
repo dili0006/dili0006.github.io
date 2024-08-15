@@ -242,10 +242,11 @@ body {
     align-items: center;
     color: white;
     position: absolute;
-    top:620%;
+    top:560%;
     bottom: 180%;
-    left: 16px;
+    left: 250px;
     font-size: 60px;
+    margin: auto;
  }
 
  .vision-par{
@@ -254,9 +255,9 @@ body {
     align-items: center;
     color: white;
     position: absolute;
-    top:670%;
+    top:600%;
     bottom: 180%;
-    left: 16px;
+    left: 220px;
     font-size: 30px;
  }
 
