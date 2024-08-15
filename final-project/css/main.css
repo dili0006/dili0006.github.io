@@ -3,3 +3,76 @@ body {
     font-weight: 300;
     font-style: normal;
 }
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #222;
+    padding: 15px 100px;
+    color: white;
+
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: ;
+    background-color:#c78c06;
+    text-decoration: none;
+    color: black;
+    width: 1250px;
+    height: 100px;
+}
+
+.abt-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 1250px;
+    height: 100px;
+}
+
+.Services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 1250px;
+    height: 100px;
+}
+
+.Team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 1250px;
+    height: 100px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: 1250px;
+    height: 100px;
+}
+
+.cnt-us {
+    background-color: #c78c06;
+    color: white;
+    width: 150px;
+    height: 80px;
+    margin: none;
+    border: none;
+    font-size: 15px;
+
+}
